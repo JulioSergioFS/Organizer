@@ -1,6 +1,8 @@
-function App() {
+import Header from './components/Header.jsx'
+
+const App = () => {
   return (
-    <h1>Hello</h1>
+    <Header />
   );
 }
 
