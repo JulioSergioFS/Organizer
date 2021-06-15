@@ -1,3 +1,7 @@
+:root {
+    background-color: #394154;
+}
+
 .header {
     align-items: center;
     display: flex;
@@ -5,13 +9,17 @@
 }
 
 .header-title {
+    color: rgba(172, 212, 160, 0.85);
     font-size: 2.5rem;
     padding: 1rem;
     text-decoration: none;
 }
 
 .bubble {
-    background-color: rgb(147, 147, 190);
+    background-image: linear-gradient(#455066, #3B465A);
+    background-color: #455066;
+    border: 4px solid #8797B8;
+    border-radius: 50px;
 }
 
 .list {
@@ -23,8 +31,10 @@
 .list-item {
     padding: 1rem;
     margin: 1rem;
+    border-radius: 100%;
 }
 
 .header-icon {
     max-width: 30px;
+    opacity: 0.85;
 }
