@@ -10,7 +10,8 @@
 
 .header-title {
     color: rgba(172, 212, 160, 0.85);
-    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
     padding: 1rem;
     text-decoration: none;
 }
@@ -35,6 +36,6 @@
 }
 
 .header-icon {
-    max-width: 30px;
+    max-width: 2rem;
     opacity: 0.85;
 }
