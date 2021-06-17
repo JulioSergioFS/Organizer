@@ -1,7 +1,10 @@
+import { Link } from 'react-router-dom'
+
 const Header = () => {
     return (
         <div className='header'>
-            <a className='bubble header-title' href="will change later">Organizer</a>
+            <Link className='bubble header-title' to="/">Organizer</Link>
+
             <nav>
                 <ul className='list'>
                     <li className='bubble list-item'><a href="https://www.linkedin.com/in/julio-sergio-ferreira-silva/"><img className='header-icon' src="https://i.imgur.com/yqGcLJV.png" alt="Linkedin" /></a></li>
