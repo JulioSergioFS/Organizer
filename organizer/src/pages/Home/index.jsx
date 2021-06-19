@@ -1,11 +1,13 @@
-import Header from '../../components/Header.jsx'
 import './index.css'
 import { Link } from 'react-router-dom'
+import Header from '../../components/Header.jsx'
+import MainPanel from '../../components/MainPanel.jsx'
 
 const Home = () => {
   return (
     <>
       <Header />
+      <MainPanel />
       <Link to="/ideas">Ideas</Link>
       <Link to="/calendar">Calendar</Link>
       <Link to="/reminders">Reminder</Link>
