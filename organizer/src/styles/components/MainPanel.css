@@ -1,0 +1,10 @@
+.main-panel {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.main-panel_item {
+    color: rgba(172, 212, 160, 0.85);
+}
