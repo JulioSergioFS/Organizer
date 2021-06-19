@@ -1,13 +1,13 @@
 import Header from '../../components/Header.jsx'
 import './index.css'
 
-const Ideas = () => {
+const ToDo = () => {
   return (
     <>
       <Header />
-      <h1>ideas</h1>
+      <h1>to do</h1>
     </>
   );
 }
 
-export default Ideas;
+export default ToDo;

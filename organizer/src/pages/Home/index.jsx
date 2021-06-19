@@ -7,6 +7,9 @@ const Home = () => {
     <>
       <Header />
       <Link to="/ideas">Ideas</Link>
+      <Link to="/calendar">Calendar</Link>
+      <Link to="/reminders">Reminder</Link>
+      <Link to="/to-do">To Do</Link>
     </>
   );
 }
