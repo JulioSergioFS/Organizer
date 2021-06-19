@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Home from './pages/Home/index';
-import Ideas from './pages/Ideas/index';
-import Calendar from './pages/Calendar/index';
-import Reminders from './pages/Reminders/index';
-import ToDo from './pages/ToDo/index';
+import Home from './pages/Home';
+import Ideas from './pages/Ideas';
+import Calendar from './pages/Calendar';
+import Reminders from './pages/Reminders';
+import ToDo from './pages/ToDo';
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 

@@ -1,5 +1,5 @@
-import Header from '../../components/Header.jsx'
-import './index.css'
+import Header from '../components/Header.jsx'
+import '../styles/pages/ToDo.css'
 
 const ToDo = () => {
   return (
