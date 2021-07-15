@@ -1,5 +1,5 @@
 # Organizer
-A ReactJS personal organization website.
+A ReactJS personal organization website. 
 ## Blueprints with ideas about the Home page:
 
 ### First blueprint:
